@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Registration Form
+        </title>
+        <style>
+            .form{
+                background-color: lightblue;
+                padding: 10px;
+                margin:10px;
+
+            }
+        </style>
+     
+    </head>
+    <body>
+        <h1 style="text-align: center;" >Registration Form </h1>
+        <br>
+        <br>
+        <form class="form">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Enetr Your Name" required> 
+            <br>
+            <br>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter your Email">
+            <br>
+            <br>
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placholder="Enter password" required >
+            <br>
+            <br>
+            <label for="confirm_password">Confirm Password</label>
+            <input type="confirm_password" id="confirm_password" name="confirm_password" placeholder="Confirm Password" required>
+            <br>
+            <br>
+            <label>Gender</label>
+            <input type="radio" id="female" name="gender" value="female" required>
+            <label for="female">Female</label>
+
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label>
+            <br>
+            <br>
+
+            <label for="city">City</label>
+            <select id="city" name="city" required>
+                <option value="">Select City</option>
+                <option value="Rawalpindi">Rawalpindi</option>
+                <option value="Islamabad">Islamabad</option>
+                <option value="Lahore">Lahore</option>
+                <option value="Karachi"> Karachi</option>
+
+
+            </select>
+            <br>
+            <br>
+            <label >Skills</label>
+
+            <input type="checkbox" id="html" name="skills[]" value="HTML">
+            <label for="html">HTMl</label>
+            <input type="checkbox" id="css" name="skills[]" value="css">
+            <label for="css">CSS</label>
+
+            
+            <input type="checkbox" id="java script" name="skills[]" value="java script">
+            <label for="javascript">JAVA Script</label>
+            <br>
+            <br>
+            <button style="background-color: blue;color: white;" type="submit">Submit</button>
+
+            <button  style="background-color: brown; color: white;">RESET</button>
+            
+        </form>
+
+        
+        <br>
+        <br>
+    </body>
+
+
+    
+    <footer>
+        Gmail   : adnansatti1218@gmail.com
+        Contact : 03165153750
+    </footer>
+</html>
